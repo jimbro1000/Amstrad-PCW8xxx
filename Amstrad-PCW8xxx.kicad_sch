@@ -40120,7 +40120,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DRAM1.kicad_sch"
+		(property "Sheetfile" "DRAM2.kicad_sch"
 			(at 242.57 146.6346 0)
 			(show_name no)
 			(do_not_autoplace no)

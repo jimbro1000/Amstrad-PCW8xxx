@@ -652,7 +652,7 @@
 	)
 	(text_box "All DRAM chips must be 4164 or 41256\nChip type cannot be mixed across or between banks"
 		(exclude_from_sim no)
-		(at 30.48 19.05 0)
+		(at 35.56 20.32 0)
 		(size 50.8 8.0376)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -668,7 +668,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "74977745-186c-44ff-8a8e-7bfc3cc394b8")
+		(uuid "c7186800-860a-42d3-b103-620d016941d4")
 	)
 	(junction
 		(at 52.07 96.52)
@@ -4202,7 +4202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "003dfc8e-5c55-4998-b948-41ef52fae651")
-		(property "Reference" "IC118"
+		(property "Reference" "IC110"
 			(at 173.5933 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,8 +4307,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC118")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC110")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d2f25a-325b-4d1b-8dc9-a111c8e8b4a2")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR036"
 			(at 171.45 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4385,8 +4385,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR021")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4404,7 +4404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "259e7668-5e5c-4247-a0b8-dc688ea95aa5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR034"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4463,8 +4463,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR013")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4482,7 +4482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3054328c-8e1f-41b5-a729-62095f18a209")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 118.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4541,8 +4541,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR019")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4560,7 +4560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3558cdb3-dcfa-4c60-b21f-2fcb5365e11f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR030"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4619,8 +4619,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR011")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db262a2-f70f-4230-9709-20142af50096")
-		(property "Reference" "IC113"
+		(property "Reference" "IC105"
 			(at 120.2533 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,8 +4743,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC113")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC105")
 					(unit 1)
 				)
 			)
@@ -4762,7 +4762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3114f9-0380-4603-85fc-f8a8322429b2")
-		(property "Reference" "IC119"
+		(property "Reference" "IC111"
 			(at 226.9333 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4867,8 +4867,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC119")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC111")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4ff321-4f5c-4d24-a9a7-9464de75a4cd")
-		(property "Reference" "IC117"
+		(property "Reference" "IC109"
 			(at 120.2533 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,8 +4991,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC117")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC109")
 					(unit 1)
 				)
 			)
@@ -5010,7 +5010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b4101d-44fd-4511-a347-9458acb3e050")
-		(property "Reference" "IC112"
+		(property "Reference" "IC104"
 			(at 66.9133 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,8 +5115,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC112")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC104")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a7c937e-3c45-4ba3-8d17-84e27def7b18")
-		(property "Reference" "IC116"
+		(property "Reference" "IC108"
 			(at 66.9133 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,8 +5239,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC116")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC108")
 					(unit 1)
 				)
 			)
@@ -5317,7 +5317,7 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -5336,7 +5336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d30b21-7467-46ac-a25f-4b7f69851265")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR040"
 			(at 224.79 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5395,8 +5395,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR023")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "800e004f-a4c6-4cdc-aab3-672a03d0d648")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR035"
 			(at 171.45 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5473,8 +5473,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR014")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5492,7 +5492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ba50a4-bb52-4f9d-9f4c-3bde0b283661")
-		(property "Reference" "IC115"
+		(property "Reference" "IC107"
 			(at 226.9333 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,8 +5597,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC115")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC107")
 					(unit 1)
 				)
 			)
@@ -5616,7 +5616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88665bf8-4671-496d-aad3-c76d88df3bdc")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR041"
 			(at 224.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5675,8 +5675,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR024")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5694,7 +5694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a01b3282-ca68-4fa3-bca5-031556c147f8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR037"
 			(at 171.45 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5753,8 +5753,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR022")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5772,7 +5772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa612974-8ad2-4344-b097-a96dac2a19b6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR028"
 			(at 64.77 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5831,8 +5831,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR017")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5909,7 +5909,7 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -5928,7 +5928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b22fedec-f613-4a6b-8898-6f9b3c1ec8e6")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR031"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5987,8 +5987,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR012")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6006,7 +6006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c4559d-cd85-4cb8-8874-41f3a2d2965e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR038"
 			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6065,8 +6065,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR015")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6084,7 +6084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c288c835-8778-4715-adf7-c0aac6b0a83d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR039"
 			(at 224.79 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6143,8 +6143,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR016")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d39b4885-b2d2-40be-bbc8-2b6ef113095f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 118.11 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6221,8 +6221,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR020")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6240,7 +6240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92935fc-13b9-46b6-bc55-974fcdd6a5b1")
-		(property "Reference" "IC114"
+		(property "Reference" "IC106"
 			(at 173.5933 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6345,8 +6345,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "IC114")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "IC106")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e880ddc1-48b7-441a-b81e-38875969d047")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR029"
 			(at 64.77 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6423,8 +6423,8 @@
 		)
 		(instances
 			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/9a70ca3e-d8e6-4e1f-b520-5ded99e36dc2"
-					(reference "#PWR018")
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a/3d9d7b46-8a44-4e9d-bd6d-c348b467ea73"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

@@ -2045,308 +2045,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:DIN-4"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 5.334 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DIN-4"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4-pin DIN connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "circular DIN connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIN*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIN-4_0_1"
-				(polyline
-					(pts
-						(xy -3.556 -1.016) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.048 -1.016)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 4.318) (xy -2.286 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.8673 -3.3444)
-					(end 0.762 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid 0 5.0579)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.762 -5.08)
-					(mid -3.8597 -3.3379)
-					(end -5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 4.318) (xy 2.286 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.048 -1.016)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.556 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DIN-4_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -13324,6 +13022,12 @@
 		(uuid "0b5fb939-e80f-4aad-9101-268ad75f4991")
 	)
 	(junction
+		(at 368.3 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ddf4766-9d59-4a72-acfa-6087c2b076f6")
+	)
+	(junction
 		(at 303.53 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13340,12 +13044,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "129b65cd-6dd0-417a-ba9f-c16e6f035a89")
-	)
-	(junction
-		(at 422.91 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "133d9ffa-c65f-40b2-bd5e-88899057fd8c")
 	)
 	(junction
 		(at 314.96 248.92)
@@ -13394,12 +13092,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d25153b-1e55-4b7a-b3a6-2b6dfb96681b")
-	)
-	(junction
-		(at 139.7 336.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1efd6bad-f9ee-4653-bfd4-7164a8159a01")
 	)
 	(junction
 		(at 68.58 125.73)
@@ -13858,22 +13550,10 @@
 		(uuid "666b5c9b-e854-4ce8-b58b-2f400fcc0020")
 	)
 	(junction
-		(at 420.37 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6761c15f-1d98-4f5e-ac56-4ae2d2c06adf")
-	)
-	(junction
 		(at 100.33 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6880bf1e-0339-4fe2-926c-7f160be5b777")
-	)
-	(junction
-		(at 132.08 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6938c6b4-2676-42f1-b6dd-aaf575baab7a")
 	)
 	(junction
 		(at 154.94 326.39)
@@ -13988,12 +13668,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a76e487-f3ad-4c2b-ae6e-115a9593e0f3")
-	)
-	(junction
-		(at 368.3 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b0e9c2a-bf65-421c-9e32-d65e2bfc75dc")
 	)
 	(junction
 		(at 477.52 254)
@@ -14236,6 +13910,12 @@
 		(uuid "acd496cf-b4b1-4460-af39-0002fc58b755")
 	)
 	(junction
+		(at 422.91 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adabd1a9-6ea2-4b1b-afb2-92e158023a36")
+	)
+	(junction
 		(at 100.33 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14294,6 +13974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba061bbd-8651-4d08-85c9-65bb49a6aaea")
+	)
+	(junction
+		(at 392.43 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba1f8c13-684c-4fd1-a956-c7d7eb7937d0")
 	)
 	(junction
 		(at 414.02 191.77)
@@ -14588,6 +14274,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1f19d2a-4741-4970-a1f9-0d27b68d106c")
+	)
+	(junction
+		(at 420.37 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f24b09ef-a6e1-4101-84fb-7037396afc95")
 	)
 	(junction
 		(at 119.38 243.84)
@@ -15003,6 +14695,16 @@
 			(type default)
 		)
 		(uuid "0584b31f-d87f-4947-a321-d44a036ac71c")
+	)
+	(wire
+		(pts
+			(xy 386.08 137.16) (xy 384.81 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a8f698-290a-435d-879e-6d6287c10a3e")
 	)
 	(wire
 		(pts
@@ -15797,16 +15499,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 331.47) (xy 118.11 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2164bf61-3fcc-41a4-a693-fe9c3defe007")
-	)
-	(wire
-		(pts
 			(xy 330.2 175.26) (xy 330.2 214.63)
 		)
 		(stroke
@@ -15837,7 +15529,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 114.3) (xy 378.46 114.3)
+			(xy 368.3 114.3) (xy 374.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -15904,16 +15596,6 @@
 			(type default)
 		)
 		(uuid "23b5c214-ce02-4527-9570-d370b61f91ed")
-	)
-	(wire
-		(pts
-			(xy 511.81 195.58) (xy 514.35 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b92667-4f3d-459c-bb87-439457e49506")
 	)
 	(wire
 		(pts
@@ -16117,7 +15799,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 139.7) (xy 422.91 139.7)
+			(xy 417.83 139.7) (xy 422.91 139.7)
 		)
 		(stroke
 			(width 0)
@@ -16587,7 +16269,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 104.14) (xy 402.59 104.14)
+			(xy 353.06 104.14) (xy 392.43 104.14)
 		)
 		(stroke
 			(width 0)
@@ -16687,7 +16369,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 331.47) (xy 132.08 331.47)
+			(xy 118.11 331.47) (xy 139.7 331.47)
 		)
 		(stroke
 			(width 0)
@@ -17019,7 +16701,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 139.7) (xy 401.32 139.7)
+			(xy 342.9 139.7) (xy 402.59 139.7)
 		)
 		(stroke
 			(width 0)
@@ -17559,16 +17241,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 195.58) (xy 519.43 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f02f49b-c036-4547-84e9-db682ca6d8e2")
-	)
-	(wire
-		(pts
 			(xy 158.75 271.78) (xy 158.75 295.91)
 		)
 		(stroke
@@ -17729,7 +17401,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 137.16) (xy 420.37 137.16)
+			(xy 401.32 137.16) (xy 420.37 137.16)
 		)
 		(stroke
 			(width 0)
@@ -18246,6 +17918,16 @@
 			(type default)
 		)
 		(uuid "78b59d0f-ab69-41cc-9651-f6f7ec5ca18c")
+	)
+	(wire
+		(pts
+			(xy 392.43 104.14) (xy 402.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7945be54-4452-45b5-b93f-16c7368bfd55")
 	)
 	(wire
 		(pts
@@ -19260,6 +18942,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 132.08) (xy 392.43 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ff3137-960f-441a-89b5-6d1f478c0691")
+	)
+	(wire
+		(pts
 			(xy 254 321.31) (xy 261.62 321.31)
 		)
 		(stroke
@@ -19667,6 +19359,16 @@
 			(type default)
 		)
 		(uuid "ae8d203a-2755-4174-8ce9-c184ef46d210")
+	)
+	(wire
+		(pts
+			(xy 392.43 132.08) (xy 392.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeec4e9c-920a-4ed6-9abc-8613949df325")
 	)
 	(wire
 		(pts
@@ -20310,7 +20012,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 114.3) (xy 485.14 114.3)
+			(xy 389.89 114.3) (xy 485.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -20580,6 +20282,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 134.62) (xy 369.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d708fd81-3c38-4f1b-91ac-a8354a23a429")
+	)
+	(wire
+		(pts
 			(xy 171.45 160.02) (xy 171.45 167.64)
 		)
 		(stroke
@@ -20791,7 +20503,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 134.62) (xy 342.9 134.62)
+			(xy 353.06 134.62) (xy 342.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -21492,16 +21204,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 336.55) (xy 139.7 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7194e97-dea5-43a8-b251-633ca9dce32a")
-	)
-	(wire
-		(pts
 			(xy 447.04 289.56) (xy 447.04 292.1)
 		)
 		(stroke
@@ -21790,6 +21492,16 @@
 		)
 		(uuid "09d864f5-475a-4852-bdc1-374644683729")
 	)
+	(label "K4"
+		(at 514.35 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0da9caad-5b65-4bbe-b0ac-99d0826617b8")
+	)
 	(label "E49"
 		(at 49.53 317.5 0)
 		(effects
@@ -21849,16 +21561,6 @@
 			(justify right bottom)
 		)
 		(uuid "18edcf36-11f2-42f0-9fbb-b765d1b646ef")
-	)
-	(label "K4"
-		(at 509.27 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a85f347-83c3-4996-b15b-db3b6a5326be")
 	)
 	(label "F18"
 		(at 485.14 134.62 180)
@@ -22189,16 +21891,6 @@
 			(justify left bottom)
 		)
 		(uuid "49131112-ce47-43f2-8d04-8eb1fdecec1d")
-	)
-	(label "K1"
-		(at 524.51 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "497cb81d-0c6c-4833-990d-73d4276d0c38")
 	)
 	(label "E14"
 		(at 49.53 215.9 0)
@@ -22760,6 +22452,16 @@
 		)
 		(uuid "98332251-d8e6-49fc-9513-1aec691de5b5")
 	)
+	(label "K3"
+		(at 514.35 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "997d20b1-1524-42dc-b768-d7df4ecae3b3")
+	)
 	(label "V3"
 		(at 485.14 207.01 180)
 		(effects
@@ -22900,6 +22602,16 @@
 		)
 		(uuid "ad7263cb-fe34-4262-88f9-28fa9332ed9e")
 	)
+	(label "K1"
+		(at 514.35 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae728674-9f43-4f68-872e-777293026bff")
+	)
 	(label "MD0"
 		(at 229.87 175.26 180)
 		(effects
@@ -22939,16 +22651,6 @@
 			(justify left bottom)
 		)
 		(uuid "b09391e7-f962-4269-9925-76c7270ee6a5")
-	)
-	(label "K2"
-		(at 521.97 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b173385a-8137-44c7-a630-cd0b0999f1aa")
 	)
 	(label "P24"
 		(at 393.7 271.78 0)
@@ -23039,16 +22741,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb3048e9-3420-4e82-9bdd-62d67fa53aa6")
-	)
-	(label "K3"
-		(at 511.81 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bce55b1f-3c4a-4bc0-9a42-aa46e00d1c83")
 	)
 	(label "V1"
 		(at 514.35 207.01 180)
@@ -23420,6 +23112,16 @@
 		)
 		(uuid "f2d6fcdd-b65c-41f5-9658-a122dff17e07")
 	)
+	(label "K2"
+		(at 514.35 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4166544-b702-413a-b35c-2786eb4eace3")
+	)
 	(label "E23"
 		(at 49.53 243.84 0)
 		(effects
@@ -23620,7 +23322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 163.83 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23700,7 +23402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 398.78 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23817,7 +23519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x13_P2.54mm_Horizontal"
 			(at 518.16 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -23938,92 +23640,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DIN-4")
-		(at 516.89 187.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "029e91db-0552-4eb9-a4f7-04a7828c8940")
-		(property "Reference" "CP103"
-			(at 516.8899 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyboard Connector"
-			(at 516.8899 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 516.89 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
-			(at 516.89 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-pin DIN connector"
-			(at 516.89 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15ce3af3-9cf9-4938-bd96-ddc7692ecceb")
-		)
-		(pin "4"
-			(uuid "aec980c0-516a-4270-90e2-7d69ca483207")
-		)
-		(pin "1"
-			(uuid "143933ed-764a-4ceb-8a20-e085c25e0349")
-		)
-		(pin "3"
-			(uuid "dbce890c-928e-4c65-80da-95cc04545ee5")
-		)
-		(instances
-			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
-					(reference "CP103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 471.17 232.41 90)
 		(unit 1)
@@ -24054,7 +23670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC52-8mm_Vertical"
 			(at 471.17 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -24294,7 +23910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 469.9 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -24545,7 +24161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 170.18 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -24625,7 +24241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 369.57 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -24974,7 +24590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 223.52 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -25055,7 +24671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 193.04 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -25136,7 +24752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 215.9 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -25398,7 +25014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 447.04 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -25479,7 +25095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 383.54 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -25596,7 +25212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 171.45 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25678,7 +25294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 340.36 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -25759,7 +25375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 471.17 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -25941,7 +25557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 173.99 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26178,7 +25794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 179.07 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26239,7 +25855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "232920f3-24cf-4fa4-9911-25e91771d686")
-		(property "Reference" "RN1"
+		(property "Reference" "NR103"
 			(at 234.696 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26249,7 +25865,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10K"
 			(at 234.696 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26322,7 +25938,7 @@
 		(instances
 			(project "Amstrad-PCW8xxx"
 				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
-					(reference "RN1")
+					(reference "NR103")
 					(unit 1)
 				)
 			)
@@ -26361,7 +25977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 88.9 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -26441,7 +26057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 353.06 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -26636,7 +26252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 408.94 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -26794,7 +26410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 384.81 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -26911,7 +26527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 210.82 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27145,7 +26761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 309.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -27343,7 +26959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 162.56 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -27422,7 +27038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 129.54 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -27502,7 +27118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm"
 			(at 447.04 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -27649,7 +27265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 482.6 254 0)
 			(hide yes)
 			(show_name no)
@@ -27808,7 +27424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 469.9 254 0)
 			(hide yes)
 			(show_name no)
@@ -27889,7 +27505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 473.71 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -27969,7 +27585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 410.21 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -28163,7 +27779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 350.52 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -28244,7 +27860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 200.66 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -28325,7 +27941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 208.28 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -28406,7 +28022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 166.37 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -28485,7 +28101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 422.91 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -28680,7 +28296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 323.85 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -28767,7 +28383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 238.76 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -28848,7 +28464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 299.72 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -29095,7 +28711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 387.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -29212,7 +28828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 254 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -29371,7 +28987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 469.9 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -29499,7 +29115,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 408.94 139.7 0)
+		(at 410.21 139.7 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -29510,7 +29126,7 @@
 		(dnp no)
 		(uuid "5d5cd753-1140-4a75-a175-b7cb326e554f")
 		(property "Reference" "IC205"
-			(at 408.94 130.81 0)
+			(at 410.21 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29520,7 +29136,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 408.94 133.35 0)
+			(at 410.21 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29529,8 +29145,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 408.94 139.7 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 410.21 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29541,7 +29157,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 408.94 139.7 0)
+			(at 410.21 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29552,7 +29168,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 408.94 139.7 0)
+			(at 410.21 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29724,7 +29340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 276.86 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -29885,7 +29501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 410.21 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -30166,7 +29782,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 392.43 137.16 0)
+		(at 393.7 137.16 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30177,7 +29793,7 @@
 		(dnp no)
 		(uuid "63d47a18-82a6-46ea-af00-16d503a271e6")
 		(property "Reference" "IC205"
-			(at 392.43 128.27 0)
+			(at 393.7 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30187,7 +29803,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 392.43 130.81 0)
+			(at 393.7 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30196,8 +29812,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 392.43 137.16 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30208,7 +29824,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 392.43 137.16 0)
+			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30219,7 +29835,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 392.43 137.16 0)
+			(at 393.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30290,7 +29906,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "643ec3fd-b3c5-4703-873e-781fee804fd4")
 		(property "Reference" "IC203"
 			(at 332.3433 71.12 0)
@@ -30303,8 +29918,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 330.2 123.19 0)
+		(property "Value" "D765AC-2"
+			(at 330.2 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30313,7 +29928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
 			(at 330.2 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -30507,7 +30122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 59.69 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -30624,7 +30239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 185.42 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -30673,87 +30288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 132.08 334.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c8ce7ac-f562-4fdd-93bc-3e03deb45c6a")
-		(property "Reference" "C201"
-			(at 129.286 336.5562 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 135.128 336.3022 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 132.08 334.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41ad77f9-9809-4f4a-8d0e-9a82e1818414")
-		)
-		(pin "2"
-			(uuid "21fbdee0-a1ed-4cec-9e80-8b2dbe053d4f")
-		)
-		(instances
-			(project "Amstrad-PCW8xxx"
-				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
-					(reference "C201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS04")
 		(at 427.99 80.01 0)
 		(unit 6)
@@ -30785,7 +30319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 427.99 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -30871,7 +30405,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 386.08 114.3 0)
+		(at 382.27 114.3 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30882,7 +30416,7 @@
 		(fields_autoplaced yes)
 		(uuid "702902a8-c451-42a6-9a00-90c949c10817")
 		(property "Reference" "IC204"
-			(at 386.08 105.41 0)
+			(at 382.27 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30892,7 +30426,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 386.08 107.95 0)
+			(at 382.27 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30901,8 +30435,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 386.08 114.3 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 382.27 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30913,7 +30447,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 386.08 114.3 0)
+			(at 382.27 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30924,7 +30458,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 386.08 114.3 0)
+			(at 382.27 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31018,7 +30552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 299.72 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -31176,7 +30710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -31335,7 +30869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 246.38 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -31416,7 +30950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 68.58 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -31575,7 +31109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_QFP:Hitachi_FP80B_PQFP-80_14x20mm_P0.8mm"
 			(at 184.15 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -31968,7 +31502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 231.14 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -32048,7 +31582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x17_P2.54mm_Horizontal"
 			(at 386.08 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -32225,7 +31759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 309.88 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -32307,7 +31841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 148.59 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -32388,7 +31922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 147.32 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -32546,7 +32080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 377.19 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -32664,7 +32198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 542.29 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -32859,7 +32393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 177.8 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -32939,7 +32473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 425.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -33056,7 +32590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 414.02 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -33219,7 +32753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -33377,7 +32911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 410.21 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -33572,7 +33106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 471.17 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -33826,7 +33360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 497.84 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -33943,7 +33477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 464.82 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -34024,7 +33558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 139.7 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -34105,7 +33639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 176.53 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -34185,7 +33719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 402.59 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -34302,7 +33836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 304.8 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -34388,7 +33922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 78.74 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -34505,7 +34039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 269.24 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -34690,7 +34224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 562.61 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -34808,7 +34342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 430.53 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -34925,7 +34459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 104.14 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -35006,7 +34540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 162.56 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -35088,7 +34622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 121.92 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -35170,7 +34704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 476.25 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -35365,7 +34899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 132.08 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -35446,7 +34980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 147.32 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -35605,7 +35139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 151.13 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -35763,7 +35297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 154.94 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -35844,7 +35378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 487.68 254 0)
 			(hide yes)
 			(show_name no)
@@ -36158,7 +35692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Horizontal_1EP_style2"
 			(at 78.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -36317,7 +35851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 236.22 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -36396,7 +35930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 127 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -36513,7 +36047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 307.34 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -36594,7 +36128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 285.75 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -36753,7 +36287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 156.21 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -36835,7 +36369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 411.48 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -36921,7 +36455,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 361.95 134.62 0)
+		(at 360.68 134.62 0)
 		(mirror y)
 		(unit 5)
 		(body_style 1)
@@ -36932,7 +36466,7 @@
 		(dnp no)
 		(uuid "d0ca93a4-79bb-4503-9621-2fcf3a738901")
 		(property "Reference" "IC204"
-			(at 361.95 125.73 0)
+			(at 360.68 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36942,7 +36476,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 361.95 128.27 0)
+			(at 360.68 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36951,8 +36485,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 361.95 134.62 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 360.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36963,7 +36497,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 361.95 134.62 0)
+			(at 360.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36974,7 +36508,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 361.95 134.62 0)
+			(at 360.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37145,7 +36679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 439.42 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -37230,6 +36764,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 519.43 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2109502-9ccd-4cff-a564-0592a5515c0e")
+		(property "Reference" "CP103"
+			(at 519.43 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyboard Connection"
+			(at 519.43 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
+			(at 519.43 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 519.43 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 519.43 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdd08d7a-8262-4c5e-b8d8-ef79043460ed")
+		)
+		(pin "2"
+			(uuid "538d830b-ccef-49f8-aa03-dbe0b34fa4f7")
+		)
+		(pin "4"
+			(uuid "0149246a-9734-47f6-b7c1-42da64ad5d91")
+		)
+		(pin "3"
+			(uuid "b0108f56-c4a9-4d8c-b5ba-16a7347ecc5c")
+		)
+		(instances
+			(project "Amstrad-PCW8xxx"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
+					(reference "CP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 154.94 323.85 0)
 		(unit 1)
@@ -37262,7 +36881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 154.94 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -37341,7 +36960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC52-8mm_Vertical"
 			(at 307.34 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -37422,7 +37041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 466.09 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -37581,7 +37200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 261.62 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -37662,7 +37281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 139.7 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -37842,7 +37461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 172.72 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -37922,7 +37541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 356.87 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -38273,7 +37892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 368.3 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -38468,7 +38087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 161.29 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -38549,7 +38168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -38807,7 +38426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 236.22 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -38861,8 +38480,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea814123-e693-4b06-9513-64a0052ba18b")
@@ -38888,7 +38507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 123.19 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -39025,7 +38644,7 @@
 		(dnp no)
 		(uuid "ec33ac3e-ab62-46b9-9a57-ce6f03b5667d")
 		(property "Reference" "IC701"
-			(at 331.216 258.064 0)
+			(at 331.47 258.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39034,8 +38653,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 331.47 259.08 0)
+		(property "Value" "40026"
+			(at 331.47 260.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39044,7 +38663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
 			(at 331.47 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -39239,7 +38858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
 			(at 88.9 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -39396,7 +39015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical"
 			(at 519.43 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -39484,7 +39103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 520.7 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -39678,7 +39297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 313.69 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -39737,7 +39356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb0cd659-7ac2-4623-b26a-52f04fc61e22")
-		(property "Reference" "NR202"
+		(property "Reference" "NR102"
 			(at 287.274 252.4759 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39819,7 +39438,7 @@
 		(instances
 			(project "Amstrad-PCW8xxx"
 				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
-					(reference "NR202")
+					(reference "NR102")
 					(unit 6)
 				)
 			)
@@ -39858,7 +39477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 168.91 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -40020,7 +39639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 99.06 114.3 0)
 			(hide yes)
 			(show_name no)

@@ -9065,17 +9065,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 -1.27 0)
+			(property "Reference" "IC101"
+				(at 8.4933 -46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "GateArray"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9371,24 +9372,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 43.18 36.83 180)
-					(length 2.54)
-					(name "TC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 43.18 -39.37 180)
 					(length 2.54)
@@ -9400,24 +9383,6 @@
 						)
 					)
 					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 41.91 180)
-					(length 2.54)
-					(name "~{DIORD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10485,9 +10450,9 @@
 			)
 			(symbol "GateArray_1_0"
 				(pin output line
-					(at -5.08 46.99 270)
+					(at -10.16 46.99 270)
 					(length 2.54)
-					(name "~{CAS1}"
+					(name "~{MWE}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10503,9 +10468,45 @@
 					)
 				)
 				(pin output line
-					(at -10.16 46.99 270)
+					(at -5.08 46.99 270)
 					(length 2.54)
-					(name "~{MWE}"
+					(name "~{CAS1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 36.83 180)
+					(length 2.54)
+					(name "TC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 43.18 41.91 180)
+					(length 2.54)
+					(name "~{DIORD}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14681,7 +14682,7 @@
 		(uuid "1dd5d985-5efc-490c-a416-1c5d30407865")
 	)
 	(no_connect
-		(at 90.17 177.8)
+		(at 90.17 172.72)
 		(uuid "271620b8-0869-4c4f-95ec-9cdf5728736a")
 	)
 	(no_connect
@@ -14733,7 +14734,7 @@
 		(uuid "d4f63f4e-d7c8-42e0-940c-cfc810e3a91a")
 	)
 	(no_connect
-		(at 92.71 177.8)
+		(at 92.71 172.72)
 		(uuid "df6db6b2-25ad-4756-8ee6-f83868760f1d")
 	)
 	(no_connect
@@ -16898,6 +16899,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 172.72) (xy 158.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a4fedf-3d48-4722-b280-1b02041f1e15")
+	)
+	(wire
+		(pts
 			(xy 49.53 180.34) (xy 74.93 180.34)
 		)
 		(stroke
@@ -17308,7 +17319,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 160.02) (xy 158.75 163.83)
+			(xy 158.75 160.02) (xy 158.75 167.64)
 		)
 		(stroke
 			(width 0)
@@ -23541,7 +23552,7 @@
 			)
 		)
 	)
-	(global_label "~{CAS1}"
+	(global_label "~{CAS2}"
 		(shape output)
 		(at 212.09 162.56 0)
 		(fields_autoplaced yes)
@@ -27688,7 +27699,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 87.63 177.8 0)
+		(at 87.63 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27699,7 +27710,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ce51b42-6f7e-400f-b414-ec1763b8a952")
 		(property "Reference" "#PWR010"
-			(at 87.63 181.61 0)
+			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27710,7 +27721,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.63 172.72 0)
+			(at 87.63 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27720,7 +27731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 177.8 0)
+			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27731,7 +27742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 177.8 0)
+			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27742,7 +27753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 177.8 0)
+			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31134,7 +31145,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.6374 170.135 0)
+		(at 158.75 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31144,7 +31155,7 @@
 		(dnp no)
 		(uuid "72ca87c7-ce2e-4d0b-8971-9f2d1f3ec6dd")
 		(property "Reference" "R115"
-			(at 157.6214 176.4849 90)
+			(at 157.734 176.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31155,7 +31166,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 157.6214 167.8489 90)
+			(at 157.734 167.8939 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31166,7 +31177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.6374 170.135 0)
+			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31177,7 +31188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.6374 170.135 0)
+			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31188,7 +31199,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 158.6374 170.135 0)
+			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

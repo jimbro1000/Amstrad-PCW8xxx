@@ -5127,6 +5127,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Schottky_Small_Filled"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode, small symbol, filled shape"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Schottky_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -13094,6 +13262,12 @@
 		(uuid "1d25153b-1e55-4b7a-b3a6-2b6dfb96681b")
 	)
 	(junction
+		(at 63.5 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21b52cd4-6ff9-46f0-83b4-c118362622e9")
+	)
+	(junction
 		(at 68.58 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13452,6 +13626,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c900aea-6ef5-4c4d-8635-54090229e078")
+	)
+	(junction
+		(at 449.58 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5db49c77-e2da-4f36-aa09-210b14596795")
 	)
 	(junction
 		(at 350.52 276.86)
@@ -13868,6 +14048,12 @@
 		(uuid "a3adaec6-c356-4ab9-8c92-628149004245")
 	)
 	(junction
+		(at 457.2 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a40f17f4-14a9-4b31-abe8-f9533420cb16")
+	)
+	(junction
 		(at 462.28 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14052,6 +14238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c864ce73-c28f-43cb-b61c-b5cce922a3a9")
+	)
+	(junction
+		(at 457.2 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c90222ff-8858-4875-871b-774efef06706")
 	)
 	(junction
 		(at 307.34 294.64)
@@ -14758,7 +14950,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 177.8) (xy 74.93 177.8)
+			(xy 49.53 177.8) (xy 63.5 177.8)
 		)
 		(stroke
 			(width 0)
@@ -15085,6 +15277,16 @@
 			(type default)
 		)
 		(uuid "112555e2-3237-4379-8883-011d4c4c4956")
+	)
+	(wire
+		(pts
+			(xy 457.2 204.47) (xy 457.2 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125266d1-566c-4473-a19f-8700b389cfbb")
 	)
 	(wire
 		(pts
@@ -15769,6 +15971,16 @@
 	)
 	(wire
 		(pts
+			(xy 457.2 204.47) (xy 485.14 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29caba34-d93c-42b8-b9aa-8e329da30249")
+	)
+	(wire
+		(pts
 			(xy 342.9 96.52) (xy 358.14 96.52)
 		)
 		(stroke
@@ -15776,6 +15988,16 @@
 			(type default)
 		)
 		(uuid "2a05317a-3a68-478b-8c5e-6c99e3a996a5")
+	)
+	(wire
+		(pts
+			(xy 457.2 217.17) (xy 457.2 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1be83c-f2c9-4ea8-93eb-746bb25ade25")
 	)
 	(wire
 		(pts
@@ -16166,6 +16388,16 @@
 			(type default)
 		)
 		(uuid "389f56db-1d77-487e-a2bd-38c7a4c9f3a0")
+	)
+	(wire
+		(pts
+			(xy 63.5 176.53) (xy 63.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39842c10-29ee-4f3a-b992-24f252755a66")
 	)
 	(wire
 		(pts
@@ -16681,6 +16913,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 177.8) (xy 74.93 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b96e992-ffc1-4f3d-8ba5-a758790540f3")
+	)
+	(wire
+		(pts
 			(xy 109.22 279.4) (xy 121.92 279.4)
 		)
 		(stroke
@@ -16891,7 +17133,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 201.93) (xy 485.14 201.93)
+			(xy 414.02 201.93) (xy 449.58 201.93)
 		)
 		(stroke
 			(width 0)
@@ -17028,6 +17270,16 @@
 			(type default)
 		)
 		(uuid "585db068-2429-46b7-bcb5-ff46518a9119")
+	)
+	(wire
+		(pts
+			(xy 449.58 218.44) (xy 457.2 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586dd4d3-dd7b-40c6-844c-43229ad4a1dc")
 	)
 	(wire
 		(pts
@@ -17618,6 +17870,16 @@
 			(type default)
 		)
 		(uuid "6d87f018-0a39-47d2-8748-02e7a390009c")
+	)
+	(wire
+		(pts
+			(xy 449.58 201.93) (xy 485.14 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db1441d-4774-470c-a5c1-c3d41932bd7a")
 	)
 	(wire
 		(pts
@@ -20072,7 +20334,7 @@
 	)
 	(wire
 		(pts
-			(xy 408.94 204.47) (xy 485.14 204.47)
+			(xy 408.94 204.47) (xy 457.2 204.47)
 		)
 		(stroke
 			(width 0)
@@ -21034,6 +21296,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 201.93) (xy 449.58 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15ffb46-289a-403c-993f-7077d80c73f2")
+	)
+	(wire
+		(pts
 			(xy 190.5 273.05) (xy 190.5 271.78)
 		)
 		(stroke
@@ -21061,6 +21333,16 @@
 			(type default)
 		)
 		(uuid "f2323199-7983-4f7d-b9dc-85e481c0cdb3")
+	)
+	(wire
+		(pts
+			(xy 449.58 217.17) (xy 449.58 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29e2ea8-06eb-4099-8516-310d8b2ac060")
 	)
 	(wire
 		(pts
@@ -23322,7 +23604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 163.83 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23910,7 +24192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 469.9 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -25212,7 +25494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 171.45 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25294,7 +25576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 340.36 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -25557,7 +25839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 173.99 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -25794,7 +26076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 179.07 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26252,7 +26534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 408.94 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -26527,7 +26809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 210.82 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -27038,7 +27320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 129.54 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -27265,7 +27547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 482.6 254 0)
 			(hide yes)
 			(show_name no)
@@ -27392,6 +27674,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 449.58 214.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3cffe734-078f-4d45-890a-df8a625f4e9b")
+		(property "Reference" "D103"
+			(at 445.516 211.5819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 447.548 210.3119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+			(at 449.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 449.58 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 449.58 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 449.58 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "704b853f-6f4d-4759-8d87-b81c925aaa2d")
+		)
+		(pin "2"
+			(uuid "698f0ea9-0b17-4dae-b0b5-de4adeade668")
+		)
+		(instances
+			(project "Amstrad-PCW8xxx"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 469.9 254 90)
 		(unit 1)
@@ -27424,7 +27809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 469.9 254 0)
 			(hide yes)
 			(show_name no)
@@ -27779,7 +28164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 350.52 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -28022,7 +28407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 166.37 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -30552,7 +30937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 299.72 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -30710,7 +31095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 158.75 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -31759,7 +32144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 309.88 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -31808,6 +32193,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small_Filled")
+		(at 457.2 214.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cf6ddad-7a80-40fb-b194-284069ffcb8e")
+		(property "Reference" "D102"
+			(at 453.136 211.5819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 455.168 210.3119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+			(at 457.2 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 214.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol, filled shape"
+			(at 457.2 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 457.2 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 457.2 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a19ec91-debb-4a19-86af-862eade8d0a1")
+		)
+		(pin "2"
+			(uuid "8a4f56dd-32d7-48b8-bab9-5f55f7b0293d")
+		)
+		(instances
+			(project "Amstrad-PCW8xxx"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 148.59 281.94 0)
 		(unit 1)
@@ -31841,7 +32329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 148.59 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -32361,6 +32849,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 457.2 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87208069-c40e-48c2-a09b-4856d761eb34")
+		(property "Reference" "#PWR079"
+			(at 457.2 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 457.2 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 457.2 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 457.2 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 457.2 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d05a9f86-1d80-45a9-b0fd-556b6ea7ee97")
+		)
+		(instances
+			(project "Amstrad-PCW8xxx"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 177.8 323.85 0)
 		(unit 1)
@@ -32590,7 +33156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 414.02 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -32753,7 +33319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 78.74 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -33477,7 +34043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 464.82 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -33639,7 +34205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 176.53 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -34120,7 +34686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 231.14 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -34459,7 +35025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Library:C_Disc_D9.0mm_W2.5mm_P5.00mm"
 			(at 104.14 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -34622,7 +35188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 121.92 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -34861,6 +35427,88 @@
 			(project "Amstrad-PCW8xxx"
 				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 63.5 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a65aa51c-c376-48f3-b329-fc9831a60c1e")
+		(property "Reference" "R121"
+			(at 66.04 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 66.04 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 63.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 63.5 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be27dc93-49d1-451f-8625-9b78a1de02ff")
+		)
+		(pin "1"
+			(uuid "a023f19d-52fa-42f9-9c67-0356c053ea7a")
+		)
+		(instances
+			(project "Amstrad-PCW8xxx"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -35139,7 +35787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 151.13 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -36287,7 +36935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 156.21 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -37041,7 +37689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 466.09 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -38055,6 +38703,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 63.5 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e65efe7c-d5c3-46b4-94d7-1c7e02e80941")
+		(property "Reference" "#PWR080"
+			(at 63.5 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 63.5 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed0ff062-bee6-4d0c-835c-3d5eb7924cdb")
+		)
+		(instances
+			(project "Amstrad-PCW8xxx"
+				(path "/ab7bf9c0-71a0-4b36-b86d-845d60d66c2a"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 161.29 170.18 0)
 		(unit 1)
@@ -38087,7 +38813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 161.29 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -38168,7 +38894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 153.67 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -38426,7 +39152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 236.22 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -38480,8 +39206,8 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea814123-e693-4b06-9513-64a0052ba18b")
@@ -39297,7 +40023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 313.69 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -39477,7 +40203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Library:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 168.91 170.18 0)
 			(hide yes)
 			(show_name no)
